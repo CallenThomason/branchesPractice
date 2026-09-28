@@ -8,7 +8,8 @@ namespace branchesPractice.Services
     public class StudentService : IStudentService 
     {
       
-      List<string> studentList = ["Jacob Da Best Teacher", "Big Chungus", "Student3"]; 
+      List<string> studentList = ["Jacob Da Best Teacher", "Big Chungus", "UglySonic", "Student3"]; 
+      
       
         public List<string> StudentGetAll()
         {
