@@ -21,7 +21,7 @@ namespace branchesPractice.Controllers
         [HttpGet("GetAll")]
         public ActionResult<List<string>> getAll()
         {
-            return Ok(_studentService.StudentGetAll()); 
+            return Ok(_studentService.StudentGetAll()); //beans 
         }
         [HttpGet("GetCount")]
         public ActionResult<int> GetCount()
