@@ -14,5 +14,10 @@ namespace branchesPractice.Services
         {
             return studentList; 
         }
+
+        public int StudentCount()
+        {
+            return studentList.Count; 
+        }
     }
 }
